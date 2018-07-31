@@ -6,7 +6,6 @@ if ! grep -q "^deb .*$multiverse"  /etc/apt/sources.list;
 then
 sudo add-apt-repository multiverse
 
-
 # Check if we were effectively run as root
 [ $EUID = 0 ] || { echo "This script needs to be run as root!"; exit 1; }
 
