@@ -26,7 +26,7 @@ xo_service="xo-server.service"
 /usr/bin/apt-get --yes install git curl
 
 #Install node and yarn
-#cd /opt
+cd /opt
 
 #/usr/bin/curl -sL $node_source | bash -
 #/usr/bin/curl -sS $yarn_gpg | apt-key add -
